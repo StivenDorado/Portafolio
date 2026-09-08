@@ -42,6 +42,21 @@ npm run build
 
 El resultado se genera en la carpeta `dist`.
 
+## Publicar en GitHub Pages
+
+El proyecto incluye el workflow `.github/workflows/deploy.yml` para publicar automáticamente el portafolio.
+
+1. Sube todo el proyecto a un repositorio de GitHub en la rama `main`.
+2. En GitHub, entra a **Settings > Pages**.
+3. En **Build and deployment**, selecciona **GitHub Actions**.
+4. Ve a la pestaña **Actions** y espera a que termine el workflow **Deploy portfolio to GitHub Pages**.
+
+El sitio se publicará en una dirección similar a:
+
+```text
+https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/
+```
+
 ## Secciones del portafolio
 
 - Inicio
