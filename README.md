@@ -57,6 +57,17 @@ El sitio se publicará en una dirección similar a:
 https://TU-USUARIO.github.io/NOMBRE-DEL-REPOSITORIO/
 ```
 
+### Alternativa sin GitHub Actions
+
+También puedes publicar la versión ya compilada:
+
+1. Sube la carpeta `docs` al repositorio.
+2. En **Settings > Pages**, selecciona **Deploy from a branch**.
+3. Elige la rama `main` y la carpeta `/docs`.
+4. Guarda y espera unos minutos.
+
+La carpeta `docs` contiene una versión lista para GitHub Pages, incluyendo los archivos JavaScript, CSS e imágenes.
+
 ## Secciones del portafolio
 
 - Inicio
